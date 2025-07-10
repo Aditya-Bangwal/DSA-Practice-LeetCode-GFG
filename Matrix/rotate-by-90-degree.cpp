@@ -8,7 +8,7 @@ void rotate(vector<vector<int> >& mat) {
     int n=mat[0].size();
    for(int i=0;i<n-1;i++)
    {
-       for(int j=i;j<n;j++)
+       for(int j=i+1;j<n;j++)
        {
            swap(mat[i][j],mat[j][i]);
            
