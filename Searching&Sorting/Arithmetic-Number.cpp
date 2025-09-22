@@ -1,0 +1,15 @@
+//Given three integers  'a' denotes the first term of an arithmetic sequence, 'c' denotes the common difference of an arithmetic sequence and an integer 'b'.
+//you need to tell whether 'b' exists in the arithmetic sequence or not. Return 1 if b is present in the sequence. Otherwise, returns 0.
+
+//soln:-
+    int inSequence(int a, int b, int c) {
+        // code here
+        if((b-a)%c==0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+        
+    }
